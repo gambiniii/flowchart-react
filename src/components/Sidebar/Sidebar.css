@@ -1,0 +1,133 @@
+.dndflow {
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+    
+  }
+  
+  .dndflow aside {
+    border-right: 1px solid #eee;
+    padding: 15px 10px;
+    font-size: 12px;
+    background: #f1f1f1;
+    display: grid;
+    align-content: space-between;
+  
+  }
+  
+  .dndflow aside .description {
+    margin-bottom: 10px;
+  }
+  
+  .dndflow .dndnode {
+    height: 20px;
+    padding: 4px;
+    border: 1px solid #1a192b;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+  }
+  
+  .dndflow .dndnode.input {
+    border-color: #0041d0;
+  }
+  
+  .dndflow .dndnode.output {
+    border-color: #ff0072;
+  }
+  
+  .dndflow .reactflow-wrapper {
+    flex-grow: 1;
+    height: 100%;
+  }
+  
+  .dndflow .selectall {
+    margin-top: 10px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .dndflow {
+      flex-direction: row;
+    }
+  
+    .dndflow aside {
+      width: 20%;
+      max-width: 250px;
+    }
+  }
+  
+
+.save__controls{
+  display: grid;
+}
+
+
+.form-button {
+  appearance: button;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Graphik,-apple-system,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-size: 14px;
+  line-height: 1.15;
+  overflow: visible;
+  padding: 12px 16px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: all 80ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  margin: 0.5em 0;
+}
+
+.form-button:disabled {
+  opacity: .5;
+}
+
+.form-button:focus {
+  outline: 0;
+}
+
+.save{
+  background-color: #1652F0;
+  border: 1px solid #1652F0;
+}
+
+
+.save:hover{
+  background-color: #0A46E4;
+  border-color: #0A46E4;
+}
+
+
+.save:active{
+  background-color: #0039D7;
+  border-color: #0039D7;
+}
+
+ 
+
+.restore{
+  background-color: #05c525;
+  border: 1px solid #058b1c;
+}
+
+
+.restore:hover{
+  background-color: #0baa26;
+  border-color: #007514;
+}
+
+
+.restore:active{
+  background-color: #0b9b23;
+  border-color: #01460d;
+}

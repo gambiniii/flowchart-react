@@ -1,0 +1,217 @@
+{
+    "nodes": [
+        {
+            "width": 150,
+            "height": 36,
+            "id": "1",
+            "type": "input",
+            "data": {
+                "label": "Input Node"
+            },
+            "position": {
+                "x": 250,
+                "y": 25
+            },
+            "positionAbsolute": {
+                "x": 250,
+                "y": 25
+            }
+        },
+        {
+            "width": 150,
+            "height": 36,
+            "id": "2",
+            "data": {
+                "label": {
+                    "type": "div",
+                    "key": null,
+                    "ref": null,
+                    "props": {
+                        "children": "Default Node"
+                    },
+                    "_owner": null,
+                    "_store": {}
+                }
+            },
+            "position": {
+                "x": 100,
+                "y": 125
+            },
+            "positionAbsolute": {
+                "x": 100,
+                "y": 125
+            }
+        },
+        {
+            "width": 150,
+            "height": 36,
+            "id": "3",
+            "type": "output",
+            "data": {
+                "label": "Output Node"
+            },
+            "position": {
+                "x": 250,
+                "y": 250
+            },
+            "positionAbsolute": {
+                "x": 250,
+                "y": 250
+            }
+        },
+        {
+            "width": 150,
+            "height": 36,
+            "id": "dndnode_0",
+            "type": "input",
+            "position": {
+                "x": 491.53586416389913,
+                "y": 186.15104459073825
+            },
+            "data": {
+                "label": "input node"
+            },
+            "positionAbsolute": {
+                "x": 491.53586416389913,
+                "y": 186.15104459073825
+            }
+        },
+        {
+            "width": 150,
+            "height": 36,
+            "id": "dndnode_1",
+            "type": "default",
+            "position": {
+                "x": 373.1409875556262,
+                "y": -67.17916932843391
+            },
+            "data": {
+                "label": "default node"
+            },
+            "positionAbsolute": {
+                "x": 373.1409875556262,
+                "y": -67.17916932843391
+            }
+        },
+        {
+            "width": 150,
+            "height": 36,
+            "id": "dndnode_2",
+            "type": "output",
+            "position": {
+                "x": 0.545346464885065,
+                "y": 12.04093193151339
+            },
+            "data": {
+                "label": "output node"
+            },
+            "positionAbsolute": {
+                "x": 0.545346464885065,
+                "y": 12.04093193151339
+            }
+        },
+        {
+            "width": 150,
+            "height": 36,
+            "id": "dndnode_3",
+            "type": "default",
+            "position": {
+                "x": 110.23471744019672,
+                "y": -106.35394467675951
+            },
+            "data": {
+                "label": "default node"
+            },
+            "positionAbsolute": {
+                "x": 110.23471744019672,
+                "y": -106.35394467675951
+            }
+        },
+        {
+            "width": 150,
+            "height": 36,
+            "id": "dndnode_4",
+            "type": "default",
+            "position": {
+                "x": 477.60705515116115,
+                "y": 99.09598826112581
+            },
+            "data": {
+                "label": "default node"
+            },
+            "positionAbsolute": {
+                "x": 477.60705515116115,
+                "y": 99.09598826112581
+            }
+        },
+        {
+            "width": 150,
+            "height": 36,
+            "id": "dndnode_5",
+            "type": "output",
+            "position": {
+                "x": 8.380301534550183,
+                "y": -28.87494454340445
+            },
+            "data": {
+                "label": "output node"
+            },
+            "positionAbsolute": {
+                "x": 8.380301534550183,
+                "y": -28.87494454340445
+            }
+        },
+        {
+            "width": 150,
+            "height": 36,
+            "id": "dndnode_6",
+            "type": "input",
+            "position": {
+                "x": -36.017777193552156,
+                "y": 153.07012318548553
+            },
+            "data": {
+                "label": "input node"
+            },
+            "positionAbsolute": {
+                "x": -36.017777193552156,
+                "y": 153.07012318548553
+            }
+        },
+        {
+            "width": 150,
+            "height": 36,
+            "id": "dndnode_7",
+            "type": "output",
+            "position": {
+                "x": -117.84953014338784,
+                "y": -42.80375355614244
+            },
+            "data": {
+                "label": "output node"
+            },
+            "positionAbsolute": {
+                "x": -117.84953014338784,
+                "y": -42.80375355614244
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1-2",
+            "source": "1",
+            "target": "2"
+        },
+        {
+            "id": "e2-3",
+            "source": "2",
+            "target": "3",
+            "animated": true
+        }
+    ],
+    "viewport": {
+        "x": 285.3735614128831,
+        "y": 228.1686012976393,
+        "zoom": 1.1486983549970349
+    }
+}
